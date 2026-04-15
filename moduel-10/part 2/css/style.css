@@ -1,0 +1,14 @@
+p {
+    /*color: rgb(255, 0, 0);*/
+    color: #ff0000;
+    font-size:20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+body {
+    /*background-color: blue;*/
+    background-image:url("C:/Users/kronk/OneDrive/Documentos/GitHub/WebAdvanced/moduel-10/part 2/images/universe.jpg");
+    background-size: cover;
+}
