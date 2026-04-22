@@ -50,3 +50,12 @@ P {
 a {
     color:red;
 }
+a:hover {
+    color:hotpink;
+}
+a:visited {
+    color:green;
+}
+a:active {
+    color:blue;
+}

@@ -1,0 +1,50 @@
+ul {
+    /*list-style-type: square;*/
+    /*list-style-image: url("C:/Users/kronk/OneDrive/Documentos/GitHub/WebAdvanced/moduel-12/straw barrel.jpg");*/
+
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid gray;
+}
+
+ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid gray;
+}
+ol {
+    /*list-style-type: upper-roman;
+    list-style-type: lower-roman;*/
+
+    background-color: #ffeeee;
+    padding: 15px;
+}
+ol li {
+    background-color: #ffeeee;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ff33cc;
+}
+tbody tr:nth-child(even) {
+    background-color: #e495e4;
+}
+thead {
+    background-color: palevioletred;
+}
+div {
+    overflow: scroll;
+    background-color: #f27979;
+    width: 200px;
+    height: 200px;
+}
