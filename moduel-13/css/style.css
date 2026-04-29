@@ -1,0 +1,74 @@
+/*Descendent*/
+article p{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+/*Child*/
+
+article > p {
+    background-color: red;
+}
+
+/*General sibling*/
+
+article ~ p {
+    background-color: purple;
+    color: white;
+    padding: 20px;
+}
+
+/*Adjecent sibling*/
+
+article + p {
+    background: orange ;
+}
+
+/*input:in-range {
+    border: 3px solid green;
+}
+
+input:out-of-range {
+    border: 3px solid red;
+}
+input:required {
+    background-color: #9ee5f8;
+}*/
+
+input:focus {
+    background-color: yellow;
+}
+
+span:first-of-type {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+/*span:first-letter {
+    color: red;
+}
+
+input:invalid {
+    border: 2px solid red;
+}*/
+
+input:valid {
+    border: 2px solid green;
+}
+
+p:first-line {
+    color: blue;
+    font-size: 40px;
+}
+
+/*
+before
+after
+selection
+*/
+
+/*
+opacity:0.5
+*/
