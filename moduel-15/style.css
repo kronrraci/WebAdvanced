@@ -1,0 +1,54 @@
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.sprite {
+    background: url("C:/Users/kronk/OneDrive/Documentos/GitHub/WebAdvanced/moduel-15/download.jpg") no-repeat;
+}
+
+.engineers {
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: 0px 0px;
+}
+
+.shadows {
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: -500px -500px;
+}
+
+a[href="https://shkolladigjitale.com"] {
+    color: red;
+}
+
+p[class*="ds"] {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+div[id~="ds"] {
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
